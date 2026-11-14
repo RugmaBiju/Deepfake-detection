@@ -1,0 +1,10 @@
+category,model,videos,correct,incorrect,accuracy,mean_real_fake_probability,mean_fake_fake_probability,probability_separation,mean_wrong_confidence,high_confidence_errors
+face2face,EfficientNet-B0,32,17,15,0.5312,0.3694,0.405,0.0356,0.8265,6
+face2face,DINOv2,32,16,16,0.5,0.5165,0.5245,0.008,0.5445,0
+face2face,Fusion,32,17,15,0.5312,0.465,0.4827,0.0177,0.6083,0
+faceswap,EfficientNet-B0,32,18,14,0.5625,0.3694,0.4519,0.0825,0.8168,5
+faceswap,DINOv2,32,15,17,0.4688,0.5165,0.5144,-0.0021,0.5446,0
+faceswap,Fusion,32,17,15,0.5312,0.465,0.4926,0.0275,0.6046,0
+neuraltextures,EfficientNet-B0,32,19,13,0.5938,0.3694,0.4773,0.1079,0.8382,6
+neuraltextures,DINOv2,32,16,16,0.5,0.5165,0.5227,0.0061,0.5421,0
+neuraltextures,Fusion,32,19,13,0.5938,0.465,0.5068,0.0417,0.6092,0

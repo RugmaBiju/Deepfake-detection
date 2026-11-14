@@ -1,0 +1,4 @@
+experiment,training_methods,unseen_method,selected_C,accuracy,precision,recall,f1,roc_auc
+A,face2face+faceswap,neuraltextures,0.01,0.59375,0.5555555555555556,0.9375,0.6976744186046512,0.6796875
+B,face2face+neuraltextures,faceswap,0.1,0.46875,0.48,0.75,0.5853658536585366,0.5859375
+C,faceswap+neuraltextures,face2face,0.1,0.46875,0.4782608695652174,0.6875,0.5641025641025641,0.578125

@@ -1,0 +1,33 @@
+video_name,actual_label_b0,predicted_label_b0,fake_probability_b0,result,error_type,actual_label_dinov2,predicted_label_dinov2,fake_probability_dinov2,b0_correct,dinov2_correct,error_pattern
+210_241.mp4,1,1,0.99999833,Correct,Correct,1,1,0.80204695,True,True,Both correct
+241_210.mp4,1,1,0.9999968,Correct,Correct,1,1,0.5853794,True,True,Both correct
+035_036.mp4,1,1,0.99999475,Correct,Correct,1,0,0.4473988,True,False,B0 only correct
+109_107.mp4,1,1,0.99918145,Correct,Correct,1,1,0.53423446,True,True,Both correct
+036_035.mp4,1,1,0.99888533,Correct,Correct,1,1,0.7236701,True,True,Both correct
+192_134.mp4,1,1,0.9946477,Correct,Correct,1,1,0.56586003,True,True,Both correct
+794_779.mp4,1,1,0.96039474,Correct,Correct,1,1,0.5197263,True,True,Both correct
+257_420.mp4,1,1,0.95746744,Correct,Correct,1,1,0.5037345,True,True,Both correct
+266_252.mp4,1,1,0.9442381,Correct,Correct,1,0,0.40831563,True,False,B0 only correct
+107_109.mp4,1,1,0.90579396,Correct,Correct,1,1,0.52446204,True,True,Both correct
+036.mp4,0,1,0.90149796,Incorrect,False Positive - Real flagged,0,0,0.47145537,False,True,DINOv2 only correct
+107.mp4,0,1,0.89960146,Incorrect,False Positive - Real flagged,0,0,0.4856997,False,True,DINOv2 only correct
+257.mp4,0,1,0.8327795,Incorrect,False Positive - Real flagged,0,0,0.4865143,False,True,DINOv2 only correct
+779_794.mp4,1,1,0.8214079,Correct,Correct,1,1,0.5947735,True,True,Both correct
+252_266.mp4,1,1,0.7601327,Correct,Correct,1,0,0.45371392,True,False,B0 only correct
+794.mp4,0,1,0.75106853,Incorrect,False Positive - Real flagged,0,1,0.5365314,False,False,Both wrong
+779.mp4,0,1,0.7336913,Incorrect,False Positive - Real flagged,0,1,0.55704516,False,False,Both wrong
+128_896.mp4,1,1,0.5661908,Correct,Correct,1,1,0.55894566,True,True,Both correct
+252.mp4,0,1,0.5335669,Incorrect,False Positive - Real flagged,0,0,0.422247,False,True,DINOv2 only correct
+128.mp4,0,0,0.44947517,Correct,Correct,0,1,0.521143,True,False,B0 only correct
+420_257.mp4,1,0,0.43222183,Incorrect,False Negative - Fake missed,1,1,0.6264626,False,True,DINOv2 only correct
+420.mp4,0,0,0.3135292,Correct,Correct,0,1,0.6126835,True,False,B0 only correct
+896.mp4,0,0,0.2791605,Correct,Correct,0,0,0.4991389,True,True,Both correct
+896_128.mp4,1,0,0.26662418,Incorrect,False Negative - Fake missed,1,0,0.49433115,False,False,Both wrong
+210.mp4,0,0,0.17733432,Correct,Correct,0,1,0.5557292,True,False,B0 only correct
+035.mp4,0,0,0.020882938,Correct,Correct,0,1,0.531573,True,False,B0 only correct
+266.mp4,0,0,0.016809303,Correct,Correct,0,0,0.41743115,True,True,Both correct
+134_192.mp4,1,0,0.0017317571,Incorrect,False Negative - Fake missed,1,1,0.6609703,False,True,DINOv2 only correct
+192.mp4,0,0,0.00079987134,Correct,Correct,0,0,0.4946133,True,True,Both correct
+134.mp4,0,0,2.0311903e-05,Correct,Correct,0,1,0.5881,True,False,B0 only correct
+241.mp4,0,0,1.6514878e-05,Correct,Correct,0,1,0.52116805,True,False,B0 only correct
+109.mp4,0,0,8.7936e-06,Correct,Correct,0,1,0.56348866,True,False,B0 only correct

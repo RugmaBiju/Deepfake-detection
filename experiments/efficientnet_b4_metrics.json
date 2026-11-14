@@ -1,0 +1,10 @@
+{
+    "model": "tf_efficientnet_b4.ns_jft_in1k",
+    "best_validation_video_f1": 0.7586206896551724,
+    "image_size": 380,
+    "epochs_completed": 6,
+    "batch_size": 2,
+    "backbone_learning_rate": 2e-05,
+    "classifier_learning_rate": 0.0002,
+    "best_model": "C:\\Users\\rugma\\OneDrive\\Desktop\\TrueLens2\\models\\efficientnet_b4_best.pth"
+}

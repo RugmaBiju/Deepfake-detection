@@ -1,0 +1,7 @@
+{
+    "best_validation_video_f1": 0.6285714285714286,
+    "epochs": 8,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "best_model": "C:\\Users\\rugma\\OneDrive\\Desktop\\TrueLens2\\models\\efficientnet_b0_frequency_best.pth"
+}

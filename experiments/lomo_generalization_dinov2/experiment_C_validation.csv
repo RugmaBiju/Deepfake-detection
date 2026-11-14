@@ -1,0 +1,2 @@
+experiment,seen_categories,unseen_category,selected_C,accuracy,precision,recall,f1,roc_auc
+C,faceswap+neuraltextures,face2face,1,0.6190476190476191,0.7142857142857143,0.7142857142857143,0.7142857142857143,0.5548469387755102

@@ -1,0 +1,53 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Large datasets and extracted frames
+datasets/raw/
+datasets/processed/
+datasets/**/frames/
+datasets/**/videos/
+
+# Extracted feature files
+*.npz
+*.npy
+*.pkl
+*.joblib
+
+# Trained model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+datasets/metadata/*.csv
+datasets/metadata/**/*.csv

@@ -1,0 +1,10 @@
+experiment,unseen_manipulation,model,TN,FP,FN,TP,false_positives,false_negatives
+A,NeuralTextures,B0,4,12,1,15,12,1
+A,NeuralTextures,DINOv2,10,6,10,6,6,10
+A,NeuralTextures,Fusion,2,14,1,15,14,1
+B,FaceSwap,B0,3,13,4,12,13,4
+B,FaceSwap,DINOv2,7,9,7,9,9,7
+B,FaceSwap,Fusion,4,12,3,13,12,3
+C,Face2Face,B0,4,12,5,11,12,5
+C,Face2Face,DINOv2,8,8,8,8,8,8
+C,Face2Face,Fusion,4,12,4,12,12,4
