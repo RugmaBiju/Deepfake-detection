@@ -1,0 +1,13 @@
+numpy
+scipy
+opencv-python-headless
+PyWavelets
+scikit-image
+scikit-learn
+xgboost
+pandas
+matplotlib
+streamlit
+fastapi
+uvicorn
+tqdm
