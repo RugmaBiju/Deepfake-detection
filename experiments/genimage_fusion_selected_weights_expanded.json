@@ -1,0 +1,14 @@
+{
+    "b0_weight": 0.2,
+    "dino_weight": 0.8,
+    "selection_metric": "validation ROC-AUC",
+    "validation_metrics": {
+        "b0_weight": 0.2,
+        "dino_weight": 0.8,
+        "accuracy": 0.998,
+        "precision": 0.9960159362549801,
+        "recall": 1.0,
+        "f1": 0.998003992015968,
+        "roc_auc": 0.9999911111111112
+    }
+}
